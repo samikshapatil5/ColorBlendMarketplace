@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:ignore="Deprecated">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="412dp"
+        android:layout_height="259dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="474dp"
+        android:layout_height="135dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_marginBottom="17dp"
+
+        android:layout_x="-50dp"
+        android:layout_y="305dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/a1"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="376dp"
+        android:layout_height="290dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+
+        android:layout_x="9dp"
+        android:layout_y="410dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/painting"
+        tools:ignore="ContentDescription,HardcodedText"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignBottom="@+id/videoView"
+        android:layout_marginBottom="-146dp"
+        android:layout_x="-13dp"
+        android:layout_y="293dp"
+        android:fontFamily="@font/sofia"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Colour's Blend"
+        android:textColor="#240953"
+        android:textSize="32dp" />
+
+
+</AbsoluteLayout>

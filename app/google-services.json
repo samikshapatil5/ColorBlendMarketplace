@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "725546018393",
+    "firebase_url": "https://ordermanagement-f32a4-default-rtdb.firebaseio.com",
+    "project_id": "ordermanagement-f32a4",
+    "storage_bucket": "ordermanagement-f32a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725546018393:android:f7d196c7e2b7ad6247f348",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QwbCkdwUXKRBITrq9CnD5lKGSR4jGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725546018393:android:68fe430445bf6c6b47f348",
+        "android_client_info": {
+          "package_name": "com.example.colorblendmarketplace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QwbCkdwUXKRBITrq9CnD5lKGSR4jGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725546018393:android:f1cea215cf5a3bba47f348",
+        "android_client_info": {
+          "package_name": "com.example.cppproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QwbCkdwUXKRBITrq9CnD5lKGSR4jGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725546018393:android:2c890124796bf22c47f348",
+        "android_client_info": {
+          "package_name": "com.example.insertdata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QwbCkdwUXKRBITrq9CnD5lKGSR4jGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725546018393:android:b89f0d32e26dbf7247f348",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QwbCkdwUXKRBITrq9CnD5lKGSR4jGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725546018393:android:fe0e2c8799e9494247f348",
+        "android_client_info": {
+          "package_name": "com.example.ordermanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QwbCkdwUXKRBITrq9CnD5lKGSR4jGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725546018393:android:affd19d0ffd1ebdf47f348",
+        "android_client_info": {
+          "package_name": "com.example.painteruser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0QwbCkdwUXKRBITrq9CnD5lKGSR4jGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

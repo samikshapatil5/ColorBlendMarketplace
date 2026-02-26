@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFEFE"
+    tools:context=".Login">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="661dp"
+        android:layout_x="11dp"
+        android:layout_y="39dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="257dp"
+            android:layout_height="59dp"
+            android:layout_x="18dp"
+            android:layout_y="287dp"
+            android:background="@drawable/rectangle"
+            android:drawableLeft="@drawable/padlock"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="textWebPassword"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="179dp"
+            android:layout_height="68dp"
+            android:layout_x="81dp"
+            android:layout_y="65dp"
+            android:fontFamily="@font/andika"
+            android:gravity="center"
+            android:shadowColor="#100F0F"
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="Welcome Back!"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="222dp"
+            android:layout_height="57dp"
+            android:layout_x="74dp"
+            android:layout_y="124dp"
+            android:text="Please Enter Your Details"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="257dp"
+            android:layout_height="59dp"
+            android:layout_x="18dp"
+            android:layout_y="196dp"
+            android:background="@drawable/rectangle"
+            android:drawableLeft="@drawable/email2"
+            android:elevation="20dp"
+            android:ems="10"
+            android:hint=" Email"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_x="42dp"
+            android:layout_y="494dp"
+            android:text="Don't have any account? Sign-up"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_x="67dp"
+            android:layout_y="368dp"
+            android:backgroundTint="#C56060"
+            android:insetTop="0dp"
+            android:id="@+id/login"
+            android:insetBottom="0dp"
+            android:text="Login"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            app:elevation="50dp"
+            app:rippleColor="#BDBDBD"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="62dp"
+            android:layout_y="422dp"
+            android:fontFamily="@font/andika"
+            android:text="_______or_______"
+            android:textColor="#8A8989"
+            android:textSize="20sp" />
+
+
+    </AbsoluteLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_open_bracket"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_margin="12dp"
+
+        android:layout_x="305dp"
+        android:layout_y="223dp"
+        android:background="#D65454"
+        android:backgroundTint="#716D6D"
+        android:contentDescription="@string/app_name" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_b5"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_margin="12dp"
+
+        android:layout_x="305dp"
+        android:layout_y="303dp"
+        android:backgroundTint="#555252"
+
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_b7"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_margin="12dp"
+
+        android:layout_x="305dp"
+        android:layout_y="263dp"
+        app:backgroundTint="#CD6645"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_b6"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_margin="12dp"
+
+        android:layout_x="305dp"
+        android:layout_y="343dp"
+        android:contentDescription="@string/app_name"
+        app:backgroundTint="#AC0B43"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="470dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="0dp"
+        android:layout_x="-143dp"
+        android:layout_y="635dp"
+        app:srcCompat="@drawable/un3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="247dp"
+        android:layout_height="123dp"
+
+        android:layout_marginEnd="2dp"
+
+        android:layout_x="170dp"
+        android:layout_y="0dp"
+        android:backgroundTint="#C3B5B5"
+        app:srcCompat="@drawable/frame" />
+
+</AbsoluteLayout>

@@ -1,0 +1,28 @@
+<!-- res/values/styles.xml -->
+
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimaryDark">#152692</item>
+
+    </style>
+
+    <!-- Toolbar style -->
+    <style name="AppToolbar" parent="Widget.MaterialComponents.Toolbar">
+
+        <item name="titleTextAppearance">@style/AppToolbarTitleText</item>
+        <!-- Add more toolbar customizations here if needed -->
+    </style>
+
+    <!-- Toolbar title text style -->
+    <style name="AppToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">@font/sofia</item>
+        <!-- Add more title text customizations here if needed -->
+    </style>
+
+</resources>

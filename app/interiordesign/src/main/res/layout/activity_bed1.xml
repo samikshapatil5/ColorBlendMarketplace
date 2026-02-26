@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kitchen_1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/image_view3"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+        android:layout_x="-2dp"
+        android:layout_y="474dp" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_x="29dp"
+        android:layout_y="505dp"
+        android:fontFamily="@font/taviraj_light"
+        android:text="HEX:  \nRGB: "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</AbsoluteLayout>

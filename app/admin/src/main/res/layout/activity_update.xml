@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please input the desired modifications to the data"
+                android:textSize="18sp"
+                android:textColor="#871E1E"
+                android:layout_marginTop="16dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name: John Doe"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email: john.doe@example.com"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/Phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone: 123-456-7890"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/Order"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Order Date: 2024-03-22"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/Delivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Delivery Date: 14:30"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/Quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Quantity: 3"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/Product"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Product: Product X"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/Shade_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shade Name: Product X"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/Shade_Code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shade Code:Product X"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/Size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Size:Product X"
+                        android:textSize="15sp" />
+                  
+
+
+
+                    <TextView
+                        android:id="@+id/StreetAddressLine1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Street Address Line 1: 123 Main St"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/StreetAddressLine2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Street Address Line 2: Apt 101"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/City"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="City: Anytown"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/PostalCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Postal Code: 12345"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/tstatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Status:Ordered"
+
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/updateCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardElevation="9dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <EditText
+                        android:id="@+id/editName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Name"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Email"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Phone"
+                        android:inputType="phone"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editOrder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Order Date"
+                        android:inputType="date"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editDelivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Delivery Date"
+                        android:inputType="date"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Quantity"
+                        android:inputType="number"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Product"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/edShade_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Shade Name"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/edShade_Code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Shade Code"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/edSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Size"
+                        android:textSize="15sp" />
+
+
+                    <EditText
+                        android:id="@+id/editStreetAddressLine1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Street Address Line 1"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editStreetAddressLine2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Street Address Line 2"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="City"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editPostalCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Postal Code"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+                    <Spinner
+                        android:id="@+id/editstatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         />
+
+                    <!-- Update button -->
+                    <Button
+                        android:id="@+id/Update"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Update" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
