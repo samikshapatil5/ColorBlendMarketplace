@@ -177,7 +177,15 @@ Ensures centralized system control and management.
 
 📸 Screenshot:
 
-![Admin Module](screenshots/admin.png)
+<p align="center">
+  <img src="screenshots/project10.jpeg" width="220"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/project11.jpeg" width="220"/>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/project12.jpeg" width="220"/>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/project13.jpeg" width="220"/>
+</p>
 
 ---
 
