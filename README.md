@@ -157,13 +157,13 @@ Features:
 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/project14.jpeg" width="210"/>
+  <img src="screenshots/project14.jpeg" width="200"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/project15.jpeg" width="210"/>
+  <img src="screenshots/project15.jpeg" width="200"/>
    &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/project16.jpeg" width="210"/>
+  <img src="screenshots/project16.jpeg" width="200"/>
    &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/project17.jpeg" width="210"/>
+  <img src="screenshots/project17.jpeg" width="200"/>
 </p>
 
 ## 🛠 6. Admin Module
