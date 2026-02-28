@@ -58,7 +58,11 @@ This screen establishes branding and enhances first impression.
 
 📸 Screenshot:
 
-![Auth Module](screenshots/auth.png)
+<p align="center">
+  <img src="screenshots/auth.png" width="250"/>
+  <img src="screenshots/auth2.png" width="250"/>
+  <img src="screenshots/auth3.png" width="250"/>
+</p>
 
 ---
 
