@@ -84,7 +84,10 @@ This helps users understand existing wall color combinations.
 
 📸 Screenshot:
 
-![Interior Design](screenshots/interior_design.png)
+<p align="center">
+  <img src="screenshots/project18.jpeg" width="250" style="margin: 10px;"/>
+  <img src="screenshots/project19.jpeg" width="250" style="margin: 10px;"/>
+</p>
 
 ---
 
