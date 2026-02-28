@@ -134,7 +134,11 @@ This builds user trust and professional transparency.
 
 📸 Screenshot:
 
-![Painter Module](screenshots/painter.png)
+<p align="center">
+
+  <img src="screenshots/project9.jpeg" width="220"/>
+</p>
+
 
 ---
 
