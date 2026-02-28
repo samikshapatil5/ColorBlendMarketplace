@@ -59,9 +59,8 @@ This screen establishes branding and enhances first impression.
 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/auth.png" width="250"/>
-  <img src="screenshots/auth2.png" width="250"/>
-  <img src="screenshots/auth3.png" width="250"/>
+  <img src="screenshots/project17.jpeg" width="250"/>
+  <img src="screenshots/project18.jpeg" width="250"/>
 </p>
 
 ---
