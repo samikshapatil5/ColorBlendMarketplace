@@ -85,9 +85,9 @@ This helps users understand existing wall color combinations.
 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/project3.jpeg" width="220" style="margin: 10px;"/>
-  <img src="screenshots/project4.jpeg" width="220" style="margin: 10px;"/>
-   <img src="screenshots/project5.jpeg" width="220" style="margin: 10px;"/>
+  <img src="screenshots/project3.jpeg" width="220" style="margin: 20px;"/>
+  <img src="screenshots/project4.jpeg" width="220" style="margin: 20px;"/>
+   <img src="screenshots/project5.jpeg" width="220" style="margin: 20px;"/>
 </p>
 
 ---
