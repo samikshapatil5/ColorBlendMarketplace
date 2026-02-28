@@ -17,7 +17,7 @@ This project demonstrates real-world Android marketplace architecture using Java
 <p align="center">
   <img src="screenshots/project1.jpeg" width="220"/>
  &nbsp;&nbsp;&nbsp;&nbsp;
-   <img src="screenshots/project21.jpeg" width="220"/>
+   <img src="screenshots/project21.jpeg" width="230"/>
 </p>
 
 
