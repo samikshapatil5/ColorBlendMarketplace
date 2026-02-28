@@ -14,7 +14,10 @@ This project demonstrates real-world Android marketplace architecture using Java
 
 ## 🟣 Loading Screen
 
-![Loading Screen](screenshots/project1.jpeg)
+<p align="center">
+  <img src="screenshots/project1.jpeg" width="350"/>
+</p>
+
 
 **Overview:**
 The loading screen introduces the ColorBlendMarketplace brand with a paint-themed creative interface.  
