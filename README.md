@@ -85,11 +85,11 @@ This helps users understand existing wall color combinations.
 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/project3.jpeg" width="250"/>
+  <img src="screenshots/project3.jpeg" width="220"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/project4.jpeg" width="250"/>
+  <img src="screenshots/project4.jpeg" width="220"/>
    &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/project5.jpeg" width="250"/>
+  <img src="screenshots/project5.jpeg" width="220"/>
 </p>
 
 ---
@@ -109,7 +109,13 @@ This provides a real-time wall painting preview experience.
 
 📸 Screenshot:
 
-![Visualizing Module](screenshots/visualizing.png)
+<p align="center">
+  <img src="screenshots/project3.jpeg" width="220"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/project4.jpeg" width="220"/>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/project5.jpeg" width="220"/>
+</p>
 
 ---
 
