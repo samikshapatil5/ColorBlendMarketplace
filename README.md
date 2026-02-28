@@ -15,7 +15,7 @@ This project demonstrates real-world Android marketplace architecture using Java
 ## 🟣 Loading Screen
 
 <p align="center">
-  <img src="screenshots/project1.jpeg" width="240"/>
+  <img src="screenshots/project1.jpeg" width="220"/>
 </p>
 
 
@@ -59,8 +59,8 @@ This screen establishes branding and enhances first impression.
 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/project18.jpeg" width="250"/>
-  <img src="screenshots/project19.jpeg" width="250"/>
+  <img src="screenshots/project18.jpeg" width="220"/>
+  <img src="screenshots/project19.jpeg" width="220"/>
 </p>
 
 ---
@@ -85,9 +85,9 @@ This helps users understand existing wall color combinations.
 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/project3.jpeg" width="250" style="margin: 10px;"/>
-  <img src="screenshots/project4.jpeg" width="250" style="margin: 10px;"/>
-   <img src="screenshots/project5.jpeg" width="250" style="margin: 10px;"/>
+  <img src="screenshots/project3.jpeg" width="220" style="margin: 10px;"/>
+  <img src="screenshots/project4.jpeg" width="220" style="margin: 10px;"/>
+   <img src="screenshots/project5.jpeg" width="220" style="margin: 10px;"/>
 </p>
 
 ---
