@@ -110,11 +110,11 @@ This provides a real-time wall painting preview experience.
 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/project3.jpeg" width="220"/>
+  <img src="screenshots/project6.jpeg" width="220"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/project4.jpeg" width="220"/>
+  <img src="screenshots/project7.jpeg" width="220"/>
    &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/project5.jpeg" width="220"/>
+  <img src="screenshots/project8.jpeg" width="220"/>
 </p>
 
 ---
